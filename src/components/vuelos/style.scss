@@ -1,0 +1,94 @@
+* {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.main {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+button {
+  background-color: #81206a;
+  fill: #e8e6e3;
+  text-align: center;
+  letter-spacing: normal;
+  font-family: Lato, sans-serif;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 700;
+  padding: 0 12px;
+  border: #81206a;
+  border-radius: 5px;
+  color: #e5e3df;
+  cursor: pointer;
+}
+.vuelo__salida {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.vuelo-fecha {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  color: black;
+  div {
+    font-size: 12px;
+  }
+}
+.vuelo__option {
+  display: flex;
+  margin-top: 20px;
+  gap: 20px;
+  font-size: 20px;
+  background-color: rgb(244, 242, 242);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 5px;
+  padding: 20px;
+  width: 100%;
+}
+
+.vuelo__regreso {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding: 10px;
+  gap: 20px;
+  text-align: right;
+
+  .right-pasajeros {
+    padding: 20px;
+  }
+  .right-flights {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: rgb(244, 242, 242);
+    margin-top: 30px;
+    border-radius: 5px;
+    span {
+      text-align: center;
+      padding-top: 10px;
+    }
+    .regreso {
+      padding: 20px;
+    }
+    .destino {
+      padding: 20px;
+    }
+  }
+  .right-pasajeros {
+    display: flex;
+    justify-content: space-between;
+  }
+  .book__flights {
+    text-align: center;
+    padding-top: 10px;
+  }
+}
